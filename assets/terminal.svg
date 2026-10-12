@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Abdulaziz Toba — AI Engineer</title>
+  <desc id="desc">An original terminal scene with an AT monogram, an animated wireframe eye, and two tracking lines. Self-hosted LLMs, agents, and inference. Visit aziztoba.github.io for the interactive portfolio.</desc>
+  <style>
+    text { font-family: 'IBM Plex Mono', 'DejaVu Sans Mono', monospace; }
+    .scan { animation: gaze 9s ease-in-out infinite; }
+    .guide { stroke-dasharray: 3 7; }
+    @keyframes gaze { 0%,100% { transform:translate(0,0) } 35% { transform:translate(12px,-5px) } 70% { transform:translate(-9px,4px) } }
+    @media (prefers-reduced-motion:reduce) { .scan { animation:none; } }
+  </style>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" stroke="#d8d4b4" stroke-opacity=".035"/></pattern>
+    <clipPath id="eye"><path d="M760 202Q920 50 1080 202Q920 348 760 202Z"/></clipPath>
+  </defs>
+  <rect width="1200" height="440" rx="6" fill="#0c0c0c"/>
+  <rect x="708" y="60" width="442" height="305" fill="url(#grid)"/>
+  <path d="M32 62H1168M32 384H1168" stroke="#d8d4b4" stroke-opacity=".15"/>
+  <g transform="translate(34 19) scale(.62)" fill="#d8d4b4">
+    <path d="M2 38 16 5h9l14 33H28l-3-8H14l-3 8ZM17 22h6l-3-9Z"/>
+    <path d="M27 5h22v8h-7v25h-8V13h-7Z"/>
+  </g>
+  <text x="82" y="39" fill="#d8d4b4" font-size="15">aziztoba.github.io</text>
+  <text x="1164" y="39" fill="#a8a385" font-size="13" text-anchor="end">~/profile</text>
+  <text x="42" y="106" fill="#689e80" font-size="16">aziztoba@github:~$ whoami</text>
+  <text x="40" y="178" fill="#d8d4b4" font-size="49" letter-spacing="-2">Abdulaziz Toba</text>
+  <text x="43" y="216" fill="#689e80" font-size="24">AI Engineer</text>
+  <text x="43" y="278" fill="#d8d4b4" font-size="18">self-hosted LLMs / agents / inference</text>
+  <text x="43" y="310" fill="#a8a385" font-size="16">built on C#/.NET + distributed services</text>
+  <g stroke="#d8d4b4" stroke-width=".8">
+    <path d="M747 199Q920 30 1093 199M748 210Q920 370 1092 210" opacity=".15"/>
+    <path d="M760 202Q920 50 1080 202Q920 348 760 202Z" opacity=".7"/>
+    <path d="M778 197Q920 73 1062 197M778 212Q920 328 1062 212" opacity=".25"/>
+    <path d="M749 181V158H772M1090 181V158H1067M749 224V247H772M1090 224V247H1067" opacity=".4"/>
+    <g clip-path="url(#eye)">
+      <ellipse cx="920" cy="202" rx="121" ry="113" opacity=".12"/>
+      <ellipse cx="920" cy="202" rx="95" ry="105" opacity=".18"/>
+      <ellipse cx="920" cy="202" rx="75" ry="99" opacity=".22"/>
+      <path d="M767 182H1070M767 222H1070M800 159H1040M800 244H1040" opacity=".12"/>
+    </g>
+  </g>
+  <g class="scan">
+    <g stroke="#d8785b" stroke-width="1" opacity=".68" class="guide">
+      <path d="M920 202 720 330M920 202 1127 106"/>
+    </g>
+    <g stroke="#d8785b" opacity=".9">
+      <path d="M713 324h12v12h-12ZM1121 100h12v12h-12Z"/>
+    </g>
+    <circle cx="920" cy="202" r="55" fill="#0c0c0c" stroke="#d8d4b4" stroke-width=".8"/>
+    <circle cx="920" cy="202" r="45" stroke="#d8d4b4" stroke-width="11" stroke-dasharray="1 4" opacity=".5"/>
+    <circle cx="920" cy="202" r="30" stroke="#689e80" stroke-width=".8"/>
+    <circle cx="920" cy="202" r="14" fill="#689e80" fill-opacity=".2" stroke="#689e80"/>
+    <path d="M914 202h12M920 196v12" stroke="#d8d4b4" stroke-width=".8"/>
+    <circle cx="929" cy="191" r="2.5" fill="#d8d4b4"/>
+  </g>
+  <text x="835" y="106" fill="#a8a385" font-size="10" letter-spacing="3">perception → reasoning</text>
+  <text x="829" y="321" fill="#a8a385" font-size="11">['eye'] procedural study</text>
+  <text x="829" y="343" fill="#689e80" font-size="11">observe. reason. build.</text>
+  <rect x="32" y="396" width="83" height="25" fill="#689e80"/>
+  <text x="44" y="413" fill="#0c0c0c" font-size="13">NORMAL</text>
+  <text x="135" y="413" fill="#d8d4b4" font-size="13">whoami</text>
+  <text x="1164" y="413" fill="#689e80" font-size="13" text-anchor="end">:open portfolio ↗</text>
+</svg>
