@@ -11,7 +11,7 @@
     <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" stroke="#d8d4b4" stroke-opacity=".035" /></pattern>
     <clipPath id="eye"><path d="M760 202Q920 50 1080 202Q920 348 760 202Z" /></clipPath>
   </defs>
-  
+
 <rect width="640" height="500" rx="6" fill="#0c0c0c"/>
 <path d="M28 57H612M28 448H612" stroke="#d8d4b4" stroke-opacity=".15"/>
 <text x="28" y="36" fill="#689e80" font-size="18">aziztoba@github:~$ whoami</text>
