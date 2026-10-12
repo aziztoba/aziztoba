@@ -1,5 +1,8 @@
 <a href="https://aziztoba.github.io" title="Enter the interactive portfolio">
-  <img src="./assets/terminal.svg" width="100%" alt="Abdulaziz Toba — AI Engineer. An animated procedural eye watches a terminal. Enter the interactive portfolio at aziztoba.github.io." />
+  <picture>
+    <source media="(max-width: 600px)" srcset="./assets/terminal-mobile.svg" />
+    <img src="./assets/terminal.svg" width="100%" alt="Abdulaziz Toba — AI Engineer. An animated procedural eye watches a terminal. Enter the interactive portfolio at aziztoba.github.io." />
+  </picture>
 </a>
 
 <p align="center">
@@ -16,9 +19,17 @@ AI engineer building **self-hosted LLM systems, agent workflows, and inference i
 ```text
 aziztoba@github:~$ cat focus.conf
 
-agents     = LangChain · LangGraph · self-hosted LLMs
-inference  = model serving · quantization · continuous batching
-backend    = C# / .NET · SQL Server · Redis · distributed services
+[agents]
+LangChain · LangGraph
+Self-hosted LLMs
+
+[inference]
+Model serving · quantization
+Continuous batching
+
+[backend]
+C# / .NET · SQL Server · Redis
+Distributed services
 ```
 
 ### `:open work/`
